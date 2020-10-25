@@ -99,12 +99,12 @@ public class Map {
   }
 
   public void drawBackground(Graphics g) {
-    g.setColor(Color.black);
+    g.setColor(Color.WHITE);
     g.fillRect(1, 1, 692, 592);
   }
 
   public void drawBorder(Graphics g) {
-    g.setColor(Color.WHITE);
+    g.setColor(Color.BLACK);
     g.fillRect(0, 0, 3, 592);
     g.fillRect(0, 0, 692, 3);
     g.fillRect(681, 0, 3, 592);
